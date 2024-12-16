@@ -49,16 +49,16 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Lessons
 
-1.
-2.
-3.
+1. Class cannot start with a digit
+2. `src` for image, `href` for links!
+3. `background-image`, `background-position-x`, `background-position-y`, `background-repeat`
 4.
 
 ## Take forward
 
-:grey_exclamation:
-:grey_exclamation:
-:grey_exclamation:
+:grey_exclamation:  
+:grey_exclamation:  
+:grey_exclamation:  
 :grey_exclamation:
 
 ## Useful resources
@@ -66,4 +66,5 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 []()
 
 # order-summary-component
+
 # testimonials-grid-section
