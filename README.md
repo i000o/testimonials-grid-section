@@ -43,7 +43,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ## Time taken
 
 :alarm_clock: Mobile: 3 hrs  
-:alarm_clock: Desktop: 2 hrs
+:alarm_clock: Desktop:
 
 ## Feedback
 
