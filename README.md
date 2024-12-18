@@ -34,7 +34,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## My process
 
-:alien:
+:alien: Grid layout in desktop first, then I had to resize everything
 :alien:
 :alien:
 :alien:
@@ -52,11 +52,11 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 1. Class cannot start with a digit
 2. `src` for image, `href` for links!
 3. `background-image`, `background-position-x`, `background-position-y`, `background-repeat`
-4.
+4. It seems I do have to initiate Sass in the command line when I start a new session `sass --watch input.scss output.css`
 
 ## Take forward
 
-:grey_exclamation:  
+:grey_exclamation: I'd like to start making Sass folders in my directories
 :grey_exclamation:  
 :grey_exclamation:  
 :grey_exclamation:

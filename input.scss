@@ -81,7 +81,7 @@ article.daniel {
 
 
     h1, h2, h3, p {
-        color: hsl(0, 0%, 81%);
+        color:  hsl(0, 0%, 100%);
     }
 }
 
@@ -126,35 +126,67 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+
+    body {
+        img {
+            border-radius: 50px;
+            max-width: 30px;
+        }
+    }
     
     section {
         display: grid; 
         place-self: center;
-        max-width: 80vw;
+        max-width: 70vw;
         max-height: 60vh;
-        gap: 5px;
+        gap: 20px;
         grid-template-rows: repeat(2, 50%);
         grid-template-columns: repeat(4, 1fr);
         margin: 150px;
     }
 
     article {
-        // margin: 0;
+        padding: 10px 30px;
+        margin: 0;
+        h1 {
+            font-size: 0.8em;
+        }
+
+        h2 {
+            font-size: 0.7em;
+        }
+
+        h3 {
+            font-size: 1.4em;
+        }
+
+        br {
+            display: none;
+        }
+
+        p {
+            font-size: 0.76em; // mess with this some more 
+            line-height: 160%;
+        }
     }
 
     article.daniel {
         grid-row: 1;
         grid-column: 1 / span 2;
+        background-position-x: 323px; // i learnt a new thing 
+
+        background-size: 18%;
     }
 
     article.jeanette {
-        grid-row: 1 / span 2; 
-        grid-column: 4;
+        grid-row: 2; 
+        grid-column: 1;
     }
 
     article.kira {
-        grid-row: 2; 
-        grid-column: 1;
+        grid-row: 1 / span 2; 
+        grid-column: 4;
+
     }
 
     article.patrick {
@@ -162,10 +194,3 @@ footer {
         grid-column: 2 / span 2;
     }
 }
-
-
-
-
-
-
-
