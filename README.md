@@ -35,9 +35,9 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 ## My process
 
 :alien: Grid layout in desktop first, then I had to resize everything
-:alien:
-:alien:
-:alien:
+:alien: I accidentally designed my desktop for 1440px writing in min-width 1024px media q
+:alien: Problems to solve - 2 Background img moves position 3 On larger mobile screens, the top card heading is cut off too early 4 On tablets, the img icons are different sizes 5 Tablet and Desktop heights are different 6
+:alien: Hiding code to keep myself focused
 :alien:
 
 ## Time taken
@@ -51,8 +51,9 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 1. Class cannot start with a digit
 2. `src` for image, `href` for links!
-3. `background-image`, `background-position-x`, `background-position-y`, `background-repeat`
+3. `background-image`, `background-position-x`, `background-position-y`, `background-repeat` `background-attachment: scroll;`
 4. It seems I do have to initiate Sass in the command line when I start a new session `sass --watch input.scss output.css`
+5.
 
 ## Take forward
 
