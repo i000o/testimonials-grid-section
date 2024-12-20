@@ -327,18 +327,28 @@ footer {
         min-width: 60vw;
         min-height: auto;
         gap: 10px;
-        grid-template-rows: repeat(4, 50%);
+        grid-template-rows: repeat(2, 50%);
         grid-template-columns: repeat(6, 1fr);
         // margin: 150px;
     }
 
-    article.daniel { 
-        grid-template-rows: 2 / span 2;
+    article.kira { 
+        grid-column: 5;
     }
 
-    footer { 
-        display: none;
+    article.jonathan { 
+        grid-column: 4;
+    }
+
+    article.patrick { 
+        grid-column: 3 / span 2;
+    }
+
+    article.daniel {
+        grid-column: 2 / span 2;
+    }
+
+    article.jeanette { 
+        grid-column: 2;
     }
 }
-
-
