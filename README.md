@@ -24,7 +24,7 @@ My goal here is to practice a more complex CSS Grid and familiarise myself to gr
 
 I'm satisfied with the outcome but I did have a hard time getting there. I started with a Mobile-first workflow, and I got that done pretty quickly. That can sometimes lead me into a false sense of security whereby I underestimate how much work is left to finish for the desktop version and I jump the gun. In this instance, I didn't approach my media queries for desktop with enough planning of how the Grid should change dependant on viewport, so I had to backtrack at one time and this was demoralising. Although, it didn't take too long in hours, I found myself circling the same lines of code again and again. I'd like to avoid this in future!
 
-![](./testimonials-grid-desktop-2.png)
+![](./testimonials-grid-desktop-2.png)  
 ![](./testimonials-mobile-2.png)
 
 :jigsaw: [Live Site URL](https://i000o.github.io/testimonials-grid-section/)  
@@ -33,7 +33,7 @@ I'm satisfied with the outcome but I did have a hard time getting there. I start
 ## Built with
 
 :gear: Semantic HTML5 markup  
-:gear: CSS Flex and Grid
+:gear: CSS Flex and Grid  
 :gear: Mobile-first workflow  
 :gear: Sass
 
