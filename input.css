@@ -72,12 +72,9 @@ article p {
 }
 
 article.daniel {
-  background-color: hsl(263, 55%, 52%);
-  background-image: url("images/bg-pattern-quotation.svg");
-  background-repeat: no-repeat;
+  background: hsl(263, 55%, 52%) url("images/bg-pattern-quotation.svg") no-repeat scroll;
   background-position-x: 170px;
   background-size: 95px;
-  background-attachment: scroll;
 }
 article.daniel h1, article.daniel h2, article.daniel h3, article.daniel p {
   color: hsl(0, 0%, 100%);
@@ -218,7 +215,7 @@ footer {
   section {
     display: grid;
     place-self: center;
-    min-width: 60vw;
+    min-width: 40%;
     gap: 10px;
     grid-template-rows: repeat(2, 50%);
     grid-template-columns: repeat(4, 1fr);
@@ -241,7 +238,7 @@ footer {
     display: none;
   }
   article p {
-    font-size: 0.65em;
+    font-size: 0.7em;
     padding-top: 5px;
   }
   article.jonathan img,
@@ -269,7 +266,7 @@ footer {
   section {
     display: grid;
     place-self: center;
-    min-width: 60vw;
+    max-width: 1500px;
     min-height: auto;
     gap: 10px;
     grid-template-rows: repeat(2, 50%);

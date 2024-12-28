@@ -73,12 +73,16 @@ article {
 }
 
 article.daniel {
-    background-color: hsl(263, 55%, 52%);
-    background-image: url("images/bg-pattern-quotation.svg");
-    background-repeat: no-repeat;
-    background-position-x: 170px; // i learnt a new thing 
+    // background-color: hsl(263, 55%, 52%);
+    // background-image: url("images/bg-pattern-quotation.svg");
+    // background-repeat: no-repeat;
+    // background-position-x: 170px; // i learnt a new thing 
+    // background-size: 95px;
+    // background-attachment: scroll; // new
+
+    background: hsl(263, 55%, 52%) url("images/bg-pattern-quotation.svg") no-repeat scroll;
+    background-position-x: 170px;
     background-size: 95px;
-    background-attachment: scroll; // new
 
 
     h1, h2, h3, p {
@@ -258,7 +262,7 @@ footer {
     section {
         display: grid; 
         place-self: center;
-        min-width: 60vw;
+        min-width: 40%;
         // min-height: auto;
         gap: 10px;
         grid-template-rows: repeat(2, 50%);
@@ -286,7 +290,7 @@ footer {
         }
 
         p {
-            font-size: 0.65em;
+            font-size: 0.7em;
             padding-top: 5px;
         }
     }
@@ -305,7 +309,7 @@ footer {
     }
 
     article.daniel {
-        background-position-x: 225px; // i learnt a new thing 
+        background-position-x: 225px; 
         background-size: 20.5%;
     }
 
@@ -324,7 +328,8 @@ footer {
     section {
         display: grid; 
         place-self: center;
-        min-width: 60vw;
+        // min-width: 60vw;
+        max-width: 1500px;
         min-height: auto;
         gap: 10px;
         grid-template-rows: repeat(2, 50%);

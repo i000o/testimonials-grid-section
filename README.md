@@ -11,6 +11,7 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 - [Built with](#built-with)
 - [Lessons](#lessons)
 - [Take forward](#take-forward)
+- [Useful resources](#useful-resources)
 
 ## Overview
 
@@ -57,12 +58,17 @@ I'm satisfied with the outcome but I did have a hard time getting there. I start
 3. `background-image`, `background-position-x`, `background-position-y`, `background-repeat` `background-attachment: scroll;`
 4. It seems I do have to initiate Sass in the command line when I start a new session `sass --watch input.scss output.css`
 5. Plan out your Grid layouts early, much like your HTML, you will save yourself a lot of work by understanding the problem you're tackling thoroughly before you begin. Don't jump into it.
+6. In hindsight, I learnt the shorthand `background` can cover `color`, `image`, `repeat`, `attachment`, `position` in that order.
 
 ## Take forward
 
 :grey_exclamation: I'd like to start making Sass folders in my directories to keep my repos more organised now that I'm working with more files.  
 :grey_exclamation: Continue using Sass syntax to make your code efficient and clean.  
 :grey_exclamation: Plan out Responsive Grids ahead of time.
+
+## Useful resources
+
+[Background shorthand](https://www.w3schools.com/css/css_background_shorthand.asp)
 
 # order-summary-component
 
